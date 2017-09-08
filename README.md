@@ -9,11 +9,13 @@ $ yarn init
 
 Learn more about [Yarn](https://yarnpkg.com/en/docs/getting-started)
 
-# devDependencies
+## devDependencies
+```bash
 $ yarn add laravel-mix
 $ yarn add cross-env
+````
 
-# Files
+## Files
 Here are some files that need to be created
 
 $ touch mix-manifest.json
@@ -50,16 +52,16 @@ Add these scripts:
 
 These scripts create shortcut commands
 
-## Webpack Commands
+# Webpack Commands
 By adding the scripts into the package.json we are able to run these commands. 
 
-# One-Time Compile Files For Development
+## One-Time Compile Files For Development
 $ yarn run dev
 
-# One-Time Compile Files For Production
+## One-Time Compile Files For Production
 $ yarn run prod
 
-# Watching Assets For Changes
+## Watching Assets For Changes
 $ yarn run watch
 
 
