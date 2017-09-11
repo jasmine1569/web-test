@@ -10,12 +10,6 @@ $ yarn init
 
 Learn more about [Yarn](https://yarnpkg.com/en/docs/getting-started)
 
-## devDependencies
-```bash
-$ yarn add laravel-mix
-$ yarn add cross-env
-````
-
 ## Files
 Here are some files that need to be created
 ```bash
@@ -55,6 +49,11 @@ Add these scripts:
 
 These scripts create shortcut commands
 
+## devDependencies
+```bash
+$ yarn add laravel-mix
+$ yarn add cross-env
+````
 # Webpack Commands
 By adding the scripts into the package.json we are able to run these commands. 
 
