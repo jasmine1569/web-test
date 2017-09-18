@@ -1,0 +1,33 @@
+// Floats
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
+}
+
+//Clear
+.clear-left{
+	clear: left;
+}
+
+.clear-right{
+	clear: right;
+}
+
+.clear-both{
+	clear: both;
+}
+
+//Type
+.type--center{
+  text-align: center;
+}
+
+//Colors
+.blue { background-color: blue; min-height: 100px; }
+.red { background-color: red; min-height: 100px; }
+.green { background-color: green; min-height: 100px; }
+.yellow { background-color: yellow; min-height: 100px; }
+.black { background-color: black; min-height: 100px; }

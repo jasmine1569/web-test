@@ -2,7 +2,7 @@
 How to install yarn and laravel-mix
 
 ## Getting Started
-Welcome start by installing node_modules and creating a package.json.
+Welcome start by installing yarn and creating a package.json with yarn init.
 ```bash
 $ yarn install
 $ yarn init
@@ -44,7 +44,7 @@ Add these scripts:
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-  },
+  }
 ````
 
 These scripts create shortcut commands

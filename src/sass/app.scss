@@ -1,7 +1,11 @@
-body{
-	background-color: red;
-}
-
+// General
+@import "variables";
 @import "type";
+@import "grids";
+@import "helpers";
 
+
+
+
+// Components
 @import "buttons";
